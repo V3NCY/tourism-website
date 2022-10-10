@@ -47,7 +47,7 @@ code {
 /* button on contact form */
 .contact .row {
   width: 100%;
-  justify-content: center;
+
 }
 
 .row {
@@ -440,11 +440,10 @@ ul li a {
   border: 0;
   background-color: rgba(228, 213, 238, 0.76);
 
-
 }
 
 .contact-textarea {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 15px 0px 10px 5px;
   font-size: 20px;
@@ -454,7 +453,6 @@ ul li a {
   height: 300px;
   min-height: 300px;
   max-height: 600px;
-
   outline: 0;
   border: 0;
   background-color: rgba(228, 213, 238, 0.76);
