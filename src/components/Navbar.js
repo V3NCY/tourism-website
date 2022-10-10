@@ -41,7 +41,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="120" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
+              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="130" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
             </Link>
           </h1>
           <ul className="bar">

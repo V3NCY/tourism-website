@@ -44,8 +44,10 @@ code {
   margin-left: auto;
 }
 
+/* button on contact form */
 .contact .row {
   width: 100%;
+  justify-content: center;
 }
 
 .row {
