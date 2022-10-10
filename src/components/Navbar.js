@@ -41,7 +41,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="130" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
+              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="90" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
             </Link>
           </h1>
           <ul className="bar">
@@ -84,6 +84,19 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                to="gallery"
+                style={{ cursor: "pointer" }}
+              >
+                Галерия
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
                 to="contact"
                 spy={true}
                 smooth={true}
@@ -98,6 +111,8 @@ function Navbar() {
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
+            <div className="burger"></div>
+
           </div>
         </div>
       </div>
