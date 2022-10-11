@@ -1,14 +1,14 @@
 function Contact() {
   return (
-    <div className="container contact">
+    <div className="container contact" >
       <h2 className="main-title text-center">КОНТАКТИ</h2>
-      <div className="col-md-12">
+      <div className="col-md-6">
         <div className="row">
           <div className="col-md-4 mb-1">
             <input name="name" placeholder="Име..." className="contact-input" />
           </div>
 
-          <div className="col-md-12 mb-1">
+          <div className="col-md-6 mb-1">
             <input name="email" placeholder="И-мейл..." className="contact-input" />
           </div>
           <div className="col-md-4 mb-1">
@@ -21,7 +21,7 @@ function Contact() {
         </div>
       </div>
       <br />
-      <div className="col-md-12">
+      <div className="col-md-6">
         <textarea
           name="message"
           placeholder="Вашето съобщение..."

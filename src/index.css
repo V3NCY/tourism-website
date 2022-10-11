@@ -47,7 +47,7 @@ code {
 /* button on contact form */
 .contact .row {
   width: 100%;
-
+  margin: 0px 0 0 310px;
 }
 
 .row {
@@ -421,12 +421,11 @@ ul li a {
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  width: 100%;
+  width: 50%;
   font-weight: 500;
   z-index: 1;
   background-color: #49c939;
   padding: 10px 50px;
-
   transition: background-color 0.2s;
 }
 
@@ -435,11 +434,11 @@ ul li a {
   border-radius: 5px;
   padding: 15px 0px 10px 5px;
   font-size: 20px;
+  justify-content: center;
   width: 100%;
   outline: 0;
   border: 0;
   background-color: rgba(228, 213, 238, 0.76);
-
 }
 
 .contact-textarea {
@@ -456,7 +455,7 @@ ul li a {
   outline: 0;
   border: 0;
   background-color: rgba(228, 213, 238, 0.76);
-
+  margin: 0px 0 0 310px;
 }
 
 @media (max-width: 1300px) {
