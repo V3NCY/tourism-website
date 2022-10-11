@@ -18,6 +18,7 @@ function Header() {
       <div className="headerbg"></div>
       {/* </div> */}
     </header>
+
   );
 }
 export default Header;
