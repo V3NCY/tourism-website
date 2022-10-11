@@ -47,7 +47,7 @@ code {
 /* button on contact form */
 .contact .row {
   width: 100%;
-  margin: 0px 0 0 310px;
+  /* margin: 0px 0 0 310px; */
 }
 
 .row {
@@ -68,6 +68,7 @@ code {
   background-color: red;
 }
 
+/* Login/logout buttons */
 .btn {
   outline: 0;
   border: 0;
@@ -386,6 +387,11 @@ footer ul li a {
   transform: scale(1.03);
 }
 
+.img-fluid {
+  border-radius: 10px;
+  width: 100%;
+}
+
 .services .col-md-4 {
   margin: 1rem 1rem 1rem 1rem;
 
@@ -412,7 +418,7 @@ ul li a {
   margin: 0 1rem !important;
 }
 
-
+/* Button - Send - Contact Form */
 .form-btn {
   border: 0;
   outline: 0;
@@ -421,7 +427,7 @@ ul li a {
   border-radius: 5px;
   text-decoration: none;
   color: white;
-  width: 50%;
+  width: 100%;
   font-weight: 500;
   z-index: 1;
   background-color: #49c939;
@@ -429,6 +435,7 @@ ul li a {
   transition: background-color 0.2s;
 }
 
+/* Contact - name, email, about */
 .contact-input {
   color: rgb(0, 0, 0);
   border-radius: 5px;
@@ -441,6 +448,7 @@ ul li a {
   background-color: rgba(228, 213, 238, 0.76);
 }
 
+/* The text inside the "Your message" box */
 .contact-textarea {
   color: rgb(0, 0, 0);
   border-radius: 5px;
@@ -455,7 +463,7 @@ ul li a {
   outline: 0;
   border: 0;
   background-color: rgba(228, 213, 238, 0.76);
-  margin: 0px 0 0 310px;
+  /* margin: 0px 0 0 310px; */
 }
 
 @media (max-width: 1300px) {

@@ -2,7 +2,7 @@ function Contact() {
   return (
     <div className="container contact" >
       <h2 className="main-title text-center">КОНТАКТИ</h2>
-      <div className="col-md-6">
+      <div className="col-md-2">
         <div className="row">
           <div className="col-md-4 mb-1">
             <input name="name" placeholder="Име..." className="contact-input" />
@@ -21,7 +21,7 @@ function Contact() {
         </div>
       </div>
       <br />
-      <div className="col-md-6">
+      <div className="col-md-2">
         <textarea
           name="message"
           placeholder="Вашето съобщение..."
