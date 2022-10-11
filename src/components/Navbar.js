@@ -41,7 +41,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="90" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
+              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="80" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
             </Link>
           </h1>
           <ul className="bar">
@@ -106,6 +106,13 @@ function Navbar() {
                 Контакти
               </Link>
             </li>
+            <button className="btn btn-md" type="button" style={{ cursor: "pointer" }} >
+              Sign up
+            </button>
+
+            <button className="btn" type="button" style={{ cursor: "pointer" }}>
+              Log in
+            </button>
           </ul>
           <div className="button" onClick={openBar}>
             <div className="burger"></div>

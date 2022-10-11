@@ -79,8 +79,8 @@ code {
   font-weight: 500;
   z-index: 1;
   background-color: #49c939;
-  padding: 10px 50px;
-  margin: 0 0.5rem;
+  padding: 10px 15px;
+  margin: 5px;
 }
 
 .col-md-12 {

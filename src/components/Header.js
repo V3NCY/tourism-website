@@ -6,13 +6,13 @@ function Header() {
       {/* <h1>ПОСЕТИ БЪЛГАРИЯ</h1> */}
       <div className="container">
         <div className="col">
-          <button className="btn" style={{ cursor: "pointer" }} >
+          {/* <button className="btn btn-sm" type="submit" style={{ cursor: "pointer" }} >
             Sign up
           </button>
 
-          <button className="btn" style={{ cursor: "pointer" }}>
+          <button className="btn" type="submit" style={{ cursor: "pointer" }}>
             Log in
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="headerbg"></div>
