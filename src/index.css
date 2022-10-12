@@ -81,6 +81,7 @@ code {
   background-color: #49c939;
   padding: 10px 15px;
   margin: 5px;
+  /* min-width: 120px; */
 }
 
 .col-md-12 {
@@ -116,6 +117,7 @@ code {
 }
 
 /* Navbar */
+/* navopened - after scrolling down */
 .navopened {
   background-color: #010606 !important;
 }
@@ -140,7 +142,7 @@ code {
   padding: 0.5rem;
   background-color: transparent;
   z-index: 2;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(3px);
 }
 
 .navbar .logo {
@@ -152,14 +154,14 @@ code {
   letter-spacing: 2px;
   font-weight: 400;
   margin: 0;
-  font-size: 28px;
-  padding-top: 10px;
+  /* font-size: 28px; */
+  padding-top: 15px;
 }
 
 .navbar ul {
   transition: all 0.2s;
 
-  margin-left: 17rem;
+  margin-left: 7.5rem;
   list-style: none;
 }
 
@@ -172,7 +174,8 @@ code {
   transition: all 0.2s;
   font-size: 20px;
   cursor: pointer;
-
+  align-items: center;
+  align-content: center;
   text-decoration: none;
   color: rgb(243, 243, 243);
   font-weight: 500;

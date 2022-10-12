@@ -1,6 +1,8 @@
 import { Link } from "react-scroll";
 
+
 function Navbar() {
+
   document.addEventListener("scroll", function (e) {
     if (window.screen.width < 768 && window.scrollY > 690) {
       const gotop = document.querySelector(".gotop");
@@ -41,7 +43,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="80" height="50" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
+              <img src="https://www.svgrepo.com/show/112304/mountain.svg" intrinsicsize="512 x 512" width="90" height="60" srcset="https://www.svgrepo.com/show/112304/mountain.svg 4x" alt="Mountain SVG Vector" title="Mountain SVG Vector"></img>
             </Link>
           </h1>
           <ul className="bar">
@@ -106,16 +108,32 @@ function Navbar() {
                 Контакти
               </Link>
             </li>
-            <button className="btn btn-md" type="button" style={{ cursor: "pointer" }} >
-              Sign up
-            </button>
+            <li>
+              <Link
+                onClick={openBar}
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+              >
+                Контакти
+              </Link>
+            </li>
+            <li>
+              <ul>
+                <button className="btn" type="button" style={{ cursor: "pointer" }}>
+                  Log in
+                </button>
 
-            <button className="btn" type="button" style={{ cursor: "pointer" }}>
-              Log in
-            </button>
+                <button className="btn btn-md" type="button" style={{ cursor: "pointer" }} >
+                  Sign up
+                </button>
+              </ul>
+            </li>
           </ul>
+
           <div className="button" onClick={openBar}>
-            <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
