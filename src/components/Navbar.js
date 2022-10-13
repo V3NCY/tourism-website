@@ -137,7 +137,6 @@ function Navbar() {
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
-
           </div>
         </div>
       </div>
