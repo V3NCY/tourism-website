@@ -99,13 +99,14 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                to="contact"
+                activeClass="active"
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
+                to="news"
+                style={{ cursor: "pointer" }}
               >
-                Контакти
+                Новини
               </Link>
             </li>
             <li>
